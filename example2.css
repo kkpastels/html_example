@@ -1,0 +1,86 @@
+html,
+body{
+    font-family: "Noto Sans TC";
+    border: 3px solid red;
+    background-color: #d9e2ed;
+}
+
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 0 20px;
+    border: 3px solid red;
+}
+
+.card {
+    background-color: #fff; 
+    padding: 10px 20px 30px;
+    margin: 20px 0;
+    border-radius: 15px;
+    box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-sporty {
+    background: url(sporty.png) no-repeat center right/200px;
+    background-color: #fff;     
+}
+
+.sport {
+    color: #dd4652;
+}
+
+.causal {
+    color: #0b4aa1;
+}
+
+.formal {
+    color: #4d2a1c
+    ;
+}
+
+.card h2 {
+        /* font related properties */
+    font-size: 30px;
+    font-weight: 900;
+    padding: 5px;
+    margin: 7px 0 2px;
+
+    /* text related properties */
+    letter-spacing 1px;
+    word-spacing: 3px;
+    text-transform: capitalize;
+}
+
+.card a {
+    text-decoration: none;
+    padding: 8px 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+    border-radius: 7px;
+}
+
+.card a:hover {
+    opacity: 0.7;
+}
+
+.card p {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+a.sport {
+    background-color: #dd4652;
+    color: white;
+}
+
+a.causal {
+    background-color: #0b4aa1;
+    color: white;
+}
+
+a.formal {
+    background-color: #4d2a1c;
+    color: white;
+}

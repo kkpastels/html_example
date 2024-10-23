@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 10px;
+}
+
+.fa-facebook {
+    color: blue;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+.fa-check {
+    color: green;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.fa-xmark {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.fa-house {
+    color: brown;
+    font-size: 70px;
+}
+
+.fa-user {
+    color: purple;
+    font-size: 50px
+}
+
+.fa-tiktok {
+    font-size: 40px;
+}
+
+.fa-magnifying-glass {
+    font-size: 50px;
+}
+
+.fa-youtube {
+    color: red;
+    font-size: 20px;
+}
+

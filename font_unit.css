@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+p {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+
+ul {
+    font-size: 1.5rem;
+    margin: rem 0;
+}
+
