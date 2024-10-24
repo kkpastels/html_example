@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (min-width: 1200px) {
+    .widescreen {
+        font-size: 36px;
+        background-color: orange;
+    }
+}
+
+@media (max-width: 992px) {
+    .widescreen {
+        background: pink;
+    }
+    .normal {
+        background: lightblue;
+    }
+}
+
+@media (max-width: 768px) {
+    .ipad {
+        background: lightgreen;
+    }
+}
+
+@media (max-width: 576px) {
+    .phone {
+        background: lightsalmon;
+    }
+}
+
+@media (orientation: landscape) {
+    .landscape {
+        background: lightcyan;
+    }
+}
+
+@media(max-height: 500px) {
+    .height {
+        background: red;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    body {
+        background: gray;
+    }
+}

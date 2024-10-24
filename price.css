@@ -136,3 +136,15 @@ i {
     margin-right: 10px;
     margin-left: 45px;
 }
+
+@media (max-width:768px) {
+    .card {
+        flex-direction: column;
+        gap: 2rem
+        padding: 40px 30px;
+        margin: 2rem;
+    }
+    .container {
+        margin: 0.2rem;
+    }
+}
