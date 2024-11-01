@@ -1,0 +1,27 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+ul li:first-child {
+    background-color: aqua;
+}
+ul li:last-child {
+    background-color: blue;
+}
+ul li:nth-child(odd) {
+    background-color: yellow;
+}
+ul li:nth-child(even) {
+    background-color: pink;
+}
+
+ul li:nth-child(4) {color: green;}
+
+ul li:nth-child(3n+1) {
+    background-color: rgb(144, 42, 165);
+}
+
+p i:only-child {
+    background: black;
+    color: white
+}

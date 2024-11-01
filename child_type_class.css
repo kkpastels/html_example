@@ -1,0 +1,39 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul li:first-of-type {
+    font-weight: bold;
+}
+
+ul li:last-of-type {
+    font-weight: bold;
+}
+
+ul li:nth-of-type(3) {
+    color: green;
+}
+
+ul li:nth-of-type(odd) {
+    background: lightcoral;
+}
+
+p:nth-of-type(2) {
+    font-weight: bold;
+}
+
+/* no effect since p did not have child 
+p:nth-child(2) {
+    color: red;
+} */
+
+.container > p:first-of-type::first-letter {
+    font-weight: bold;
+    font-size: 2rem;
+    color: red;
+}
+
+/* not work command 
+.container > p::first-line:first-of-type {
+    background: blue;
+} */
